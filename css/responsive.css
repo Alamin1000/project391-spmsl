@@ -1,0 +1,282 @@
+
+@media (max-width: 1199px) {
+    .header-logo {
+        display: block;
+        width: 110px;
+    } 
+    .main-menu ul li a {
+        font-size: 15px;
+        padding: 5px 4px;
+    }
+    .main-menu ul li a::after {
+        height: 2px;
+    }
+    .main-menu ul {
+        gap: 22px;
+    }
+    .default-button {
+        font-size: 14px;
+        min-height: 31px;
+        padding: 2px 15px 4px;
+    }
+    .header-right {
+        gap: 30px;
+    }
+    .header-section {
+        padding: 30px 0;
+    }
+
+    .hero__b-address {
+        padding: 6px 8px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        border-radius: 7px;
+    }
+    .mid-ade-btn {
+        width: 180px;
+    }
+    .hero-media-wrap {
+        width: 100%;
+        gap: 9px;
+    }
+    .hero-media-box {
+        padding: 15px 15px;
+        border-radius: 7px;
+    }
+    .introductory-sec-title h2 {
+        font-size: 50px;
+        line-height: 1.26;
+    }
+    .introductory-sec-title h2 .line {
+        width: 221px;
+    }
+    .introductory__content p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .introductory-section {
+        padding: 155px 0 35px;
+        margin-top: -150px;
+    }
+    .hero-section {
+        padding: 150px 0 200px;
+    }
+
+
+    .token-section {
+        padding: 50px 0;
+    }
+    .token-section__title .h2-text {
+        width: 350px;
+    }
+    .token-section__title h4 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .token-section__title h5 {
+        --bdr: 3px;
+        --wd: 11px;
+        padding: 2px 7px;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .token-section__title p {
+        font-size: 19px;
+    }
+    .token-section__title {
+        padding: 0 15px 15px;
+    }
+
+    .token-card .icon {
+        width: 120px;
+    }
+    .token-card_in {
+        padding: 25px 30px;
+        gap: 27px;
+        border-radius: 13px;
+    }
+    .token-card .content h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .token-card .content p {
+        font-size: 19px;
+    }
+    .token-cards-wrap {
+        gap: 30px;
+    }
+    .token-card {
+        padding-bottom: 3px;
+        border-radius: 15px;
+    }
+
+    .hb-section__title .h2-txt {
+        width: 300px;
+    }
+    .hb_item .number {
+        width: 150px;
+    }
+    .hb_item .number .txt {
+        font-size: 90px;
+    }
+    .hb_item .content h3 {
+        font-size: 18px;
+    }
+    .hb_item .content p {
+        font-size: 12px;
+    }
+    .hb_items-wrap {
+        gap: 30px;
+    }
+
+    .hb-section {
+        padding: 50px 0;
+    }
+    .ul-p li {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .ul-p li::before {
+        height: 4px;
+        width: 4px;
+        top: 9px;
+    }
+
+
+    .roadmap-title .h2-text {
+        width: 250px;
+    }
+    .ul-rm li {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .ul-rm li::before {
+        height: 4px;
+        width: 4px;
+        top: 9px;
+    }
+    .roadmap-single h3 {
+        font-size: 16px;
+        margin-bottom: 4px;
+        padding-left: 10px;
+    }
+    .roadmap-single {
+        --off: 30px;
+    }
+    .roadmaps__bar {
+        height: 6px;
+    }
+    .roadmaps__bar__line {
+        height: 13px;
+        width: 13px;
+        border-width: 4px;
+    }
+    .roadmaps__bar__line::after {
+        --bot: 5px;
+        height: 22px;
+        width: 2px;
+    }
+    .roadmaps_wrap {
+        margin-top: 170px;
+        margin-bottom: 154px;
+        position: relative;
+    }
+    .roadmap-section__inner {
+        padding: 40px 0 60px;
+    }
+}
+
+
+@media (max-width: 991px) {
+ 
+}
+
+
+@media (max-width: 768px) {
+    .header-section {
+        padding: 20px 0;
+    }
+    .hero-section {
+        padding: 110px 0 140px;
+    }
+    .hero__b-cont-side {
+        padding-top: 0;
+    }
+
+    .introductory-sec-title h2 {
+        font-size: 35px;
+    }
+    .introductory-sec-title h2 .line {
+        width: 154px;
+    }
+    .introductory-sec-title {
+        margin-bottom: 14px;
+    }
+    .introductory__content p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .introductory-section {
+        padding: 125px 0 25px;
+        margin-top: -120px;
+    }
+
+    .token-card_in {
+        flex-direction: column;
+        align-items: center;
+    }
+    .token-section__title p {
+        font-size: 16px;
+    }
+    .token-card .content p {
+        font-size: 16px;
+    }
+
+    .hb_item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hb-section__title {
+        margin-bottom: 25px;
+    }
+    
+
+    .roadmap-single {
+        position: relative;
+        inset: auto !important;
+        padding-bottom: 25px;
+        padding-left: 20px;
+    }
+    .roadmap-single:last-child {
+        padding-bottom: 0;
+    }
+    .roadmaps_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .roadmaps__bar {
+        display: none;
+    }
+    .roadmaps_wrap {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+
+@media (max-width: 575px) {
+ 
+}
+
+
+@media (max-width: 370px) {
+    .introductory__content p {
+        font-size: 15px;
+    }
+    .token-card_in {
+        padding: 25px 20px;
+    }
+    .token-card .content p {
+        font-size: 14px;
+    }
+}
